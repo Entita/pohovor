@@ -1,0 +1,28 @@
+.products-container {
+  padding: 0 1rem;
+}
+
+.products-container > h2 {
+  margin: 0;
+  font-size: 38px;
+}
+
+.products-table {
+  display: flex;
+  gap: .6rem;
+  flex-wrap: wrap;
+}
+
+.products-table > div:last-child {
+  display: flex;
+}
+
+.product-card > button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  font-size: 32px;
+  letter-spacing: 6px;
+}

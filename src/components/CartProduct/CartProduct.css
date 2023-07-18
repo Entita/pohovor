@@ -1,0 +1,21 @@
+.cart-product {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 32px;
+  gap: 12px;
+}
+
+.cart-product > img {
+  height: 100%;
+  aspect-ratio: 1/1;
+}
+
+.cart-product > span:nth-child(2) {
+  white-space: nowrap;
+  overflow-x: hidden;
+}
+
+.cart-product > span:nth-child(3) {
+  font-weight: bold;
+}
